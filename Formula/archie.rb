@@ -10,3 +10,5 @@ class Archie < Formula
     def install
         system "cargo", "build", "--release", "--bin", "archie"
         bin.install "target/release/rustscan"
+    end
+end
